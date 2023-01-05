@@ -1,0 +1,6 @@
+TOP RIGHT BOTTOM LEFT
+ 1           2
+ 4           3   
+* LEARN ABOUT CSS PX, EM AND REM.
+PX: đơn vị tuyệt đối 
+%: đơn vị tương đối, = parent * %

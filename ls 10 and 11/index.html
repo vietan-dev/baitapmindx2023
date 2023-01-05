@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="color-box" id="box">
+        Hello!
+    </div>
+    <button onclick="changeColor()">Change color</button>
+    <div class="container">
+        <div class="color-box" id="box1" style="background-color: red;"></div>
+        <div class="color-box" id="box2" style="background-color: green;"></div>
+        <div class="color-box" id="box3" style="background-color: blue;"></div>
+    </div>
+    <br>
+    <label for="box1-input">Box 1:</label>
+    <input type="number" id="box1-input" min="1" max="100" value="33">%
+    <br>
+    <label for="box2-input">Box 2:</label>
+    <input type="number" id="box2-input" min="1" max="100" value="33">%
+    <br>
+    <label for="box3-input">Box 3:</label>
+    <input type="number" id="box3-input" min="1" max="100" value="34">%
+    <br>
+    <button onclick="resizeBoxes()">Resize boxes</button>
+    <script src="./index.js"></script>
+</body>
+
+</html>

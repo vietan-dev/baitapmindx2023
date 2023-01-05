@@ -1,0 +1,41 @@
+* {
+   font-family: Lucida Sans Unicode;
+}
+
+body {
+   padding: 40px;
+   height: 1800px;
+   width: 600px;
+   font-size: medium;
+}
+
+img {
+   border-radius: 50%;
+   border: black 1px solid;
+}
+
+hr {
+   border: none;
+   border-top: 4px dashed rgb(62, 69, 68);
+   width: 80%;
+   margin: 2%;
+}
+
+.size {
+   background-color: rgb(164, 214, 217);
+}
+
+h3 {
+   color: darkcyan;
+   padding-left: 1cm;
+}
+
+h1 {
+   color: darkcyan;
+   padding-left: 1cm;
+}
+
+h2 {
+   color: darkcyan;
+   padding-left: 1cm;
+}

@@ -1,0 +1,42 @@
+*{ 
+    font-family: 'Courier New', Courier, monospace;
+ }
+.box
+{
+    height: 800px ;
+    width: 600px;
+    box-sizing: border-box;
+    border-width: 6px ;
+    background-color: blanchedalmond;
+    border-style: solid;
+    border-color: red;
+
+
+}
+.heading {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.pic img
+{
+    height: 250px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: orange blueviolet blueviolet orange ;
+    border-width: 10px;
+}
+.textbox {
+    height: 350px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-style: dashed ;
+    border-color: orange;
+    overflow: auto;
+    border-width: 5px;
+    text-indent: 3px;
+    padding-left:  10px; ;
+    background-color: azure;
+}

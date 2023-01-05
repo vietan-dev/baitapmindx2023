@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+
+}
+/* bài 1 */
+.container {
+    display: flex;
+    height: 760px;
+    border: 20px;
+    border-style: hidden;
+    border-radius: 20px;
+    overflow: hidden;
+}
+/* phần menu */
+.sidebar {
+    background-color: rgb(23, 35, 60);
+    width: 20%;
+    min-width: 200px;
+    color: rgb(255, 255, 255);
+}
+
+i {
+    color: rgb(157, 75, 235);
+    font-size: 30px;
+    padding: 15px;
+}
+
+.menu {
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+.menu-subject {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 25px 10px;
+}
+
+.menu-subject:hover {
+    background-color: rgba(23, 21, 21, 0.39);
+    width: 90%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+    background-color: rgba(177, 142, 142, 0.1);
+    margin-top: 430px;
+}
+
+.profile-text {
+    padding-right: 130px;
+    font-size: 15px;
+    color: rgb(205, 232, 232);
+}
+a{
+    color: rgb(205, 232, 232);
+}
+/* phần content */
+.find {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+    box-shadow: 1px 1px 5px rgba(18, 17, 19, 0.3);
+    background-color: rgb(255, 255, 255);
+}
+.search-subject {
+    display: flex;
+    align-items: center;
+}
+.search-subject input {
+    width: 400px;
+    height: 64px;
+    border: none;
+    font-size: 16px;
+}
+.search-subject input:  {
+    outline: none
+}
+.content {
+    flex-grow: 1;
+    background-color: #b0b2b6;
+}
+h1 {
+    margin: 20px;
+}
+.content-box {
+    margin: 0 20px 20px;
+    height: 500px;
+    border: dashed 4px rgba(96, 101, 111, 0.5);
+    border-radius: 15px;
+} 
+/* bài 3 */
+.product{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18%;
+    grid-template-rows: 350px 350px;
+    justify-items: center;
+}
+.item {
+    margin: 8px;
+    border: solid 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+img {
+    height: 250px;
+}

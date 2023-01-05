@@ -1,0 +1,16 @@
+.color-box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.color-box {
+    height: 200px;
+}
