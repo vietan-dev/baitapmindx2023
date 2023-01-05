@@ -1,1 +1,0 @@
-#baitapmindx2023
